@@ -4,7 +4,7 @@ def temperatura_promedio(temp):
   add = 0
   for i in range(len(temp)):
     add += temp[i]
-  return add/i
+  return add/len(temp)
 
 def temperaturaMaximaYMinima(temp):
   min = 1000
@@ -22,4 +22,4 @@ def promedioDePrecipitaciones(precip):
   prom = 0
   for i in range(len(precip)):
     prom += precip[i]
-  return prom/i
+  return prom/len(precip)
